@@ -9,6 +9,9 @@ public class Exe7 { // classe principal
         System.out.print("Escreva a altura:");
         Float altura = s.nextFloat(); // input
         Float calculo = peso/altura;
+        
+        s.close();
+        
         if (calculo >= 18.5 && calculo <= 24.9) {
             System.out.println("Peso normal");
         } else if (calculo < 18.5) {

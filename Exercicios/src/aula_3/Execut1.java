@@ -14,6 +14,8 @@ public class Execut1 {
 		System.out.print("Escreva o segundo n�mero:");
 		calculadora.numero2 = s.nextFloat();
 		
+		s.close();
+
 		System.out.println("Adi��o:" + calculadora.adicao());
 		System.out.println("Subtra��o:" + calculadora.subtracao());
 		System.out.println("Multiplica��o:" + calculadora.multiplicacao());

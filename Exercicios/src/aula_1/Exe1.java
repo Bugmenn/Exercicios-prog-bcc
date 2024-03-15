@@ -11,6 +11,9 @@ public class Exe1 { // classe principal
             Float numero = s.nextFloat(); // input
             numeros.add(numero); // adiciona o valor na lista
         }
+
+        s.close();
+        
         System.out.println("Adição:" + (numeros.get(0) + numeros.get(1))); // output
         System.out.println("Subtração:" + (numeros.get(0) - numeros.get(1)));
         System.out.println("Multiplicação:" + (numeros.get(0) * numeros.get(1)));

@@ -17,6 +17,8 @@ public class Execut6 {
 		System.out.print("Informe a quilometragem rodada na ultima viagem:");
 		carro.quilometragem_rodada = s.nextFloat();
 
+		s.close();
+
         System.out.print("A média de consumo do veículo é:"+carro.calcularMediaCosumo()+"km/l");
 	}
 

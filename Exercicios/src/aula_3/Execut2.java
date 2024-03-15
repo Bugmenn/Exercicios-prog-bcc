@@ -12,6 +12,7 @@ public class Execut2 {
 		System.out.print("Escreva o raio:");
 		circulo.raio = s.nextFloat();
 		System.out.println("�rea:" + circulo.calcularArea());
+		s.close();
 	}
 
 }

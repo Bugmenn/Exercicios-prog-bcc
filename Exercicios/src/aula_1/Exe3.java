@@ -6,6 +6,9 @@ public class Exe3 { // classe principal
         Scanner s = new Scanner(System.in); // cria o objeto scanner (sendo "s")
         System.out.print("Escreva a temperatura em Celsius:");
         Float numero = s.nextFloat(); // input
+        
+        s.close();
+       
         System.out.println("Em Fahrenheit:" + (numero * 9/5 + 32));
     }
 }

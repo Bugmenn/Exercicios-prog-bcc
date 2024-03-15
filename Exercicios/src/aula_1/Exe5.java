@@ -9,6 +9,9 @@ public class Exe5 { // classe principal
             System.out.print("Escreva a " + i + "° nota:");
             notas += s.nextDouble();
         }
+        
+        s.close();
+        
         Double media = notas/3;
         System.out.println("\nMédia:"+media);
         if (media >= 7) {

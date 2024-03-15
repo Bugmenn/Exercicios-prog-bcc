@@ -6,6 +6,9 @@ public class Exe2 { // classe principal
         Scanner s = new Scanner(System.in); // cria o objeto scanner (sendo "s")
         System.out.print("Escreva o número:");
         int numero = s.nextInt(); // input
+        
+        s.close();
+        
         if (numero % 2 == 0) { // codicional if
             System.out.println(numero + " é par!");
         } else { // condicional else

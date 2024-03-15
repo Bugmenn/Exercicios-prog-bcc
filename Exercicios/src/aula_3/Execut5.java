@@ -26,6 +26,7 @@ public class Execut5 {
 		System.out.println("Quantidade atual:"+produto.quantidade);
 
 		System.out.print("Preço do estoque atual:"+produto.calcularEstoque());
+		s.close();
 	}
 
 }

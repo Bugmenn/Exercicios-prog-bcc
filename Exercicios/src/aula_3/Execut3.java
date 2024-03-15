@@ -14,6 +14,8 @@ public class Execut3 {
 		System.out.print("Escreva a largura:");
 		retangulo.largura = s.nextFloat();
 		
+		s.close();
+
 		System.out.println("Per�metro:" + retangulo.calcularPerimetro());
 		System.out.print("�rea:" + retangulo.calcularArea());
 	}

@@ -18,6 +18,9 @@ public class Execut4 {
 		System.out.println("Saldo atual:" + contaBancaria.depositar(s.nextFloat()));
 		System.out.print("Quanto deseja sacar?:");
 		float numero = s.nextFloat();
+
+		s.close();
+
 		if (contaBancaria.saldo < numero) {
 			System.out.print("N�o � possivel sacar");
 		} else {

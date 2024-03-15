@@ -6,6 +6,9 @@ public class Exe4 { // classe principal
         Scanner s = new Scanner(System.in); // cria o objeto scanner (sendo "s")
         System.out.print("Escreva a idade:");
         int idade = s.nextInt(); // input
+        
+        s.close();
+        
         if (idade >= 18) {
             System.out.println("Maior de idade");
         } else {

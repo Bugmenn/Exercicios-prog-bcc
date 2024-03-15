@@ -10,6 +10,9 @@ public class Exe6 { // classe principal
         Integer ponto2 = s.nextInt(); // input
         System.out.print("Escreva o 3° ponto:");
         Integer ponto3 = s.nextInt(); // input
+        
+        s.close();
+        
         if (ponto1 == ponto2 && ponto1 == ponto3 && ponto2 == ponto3) {
             System.out.println("Equilátero");
         } else if (ponto1 == ponto2 || ponto1 == ponto3 || ponto2 == ponto3) {
