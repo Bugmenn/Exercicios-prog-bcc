@@ -12,13 +12,14 @@ public class Uni3Uri1012 {
 		double b = s.nextDouble();
 		double c = s.nextDouble();
 		s.close();
-		DecimalFormat formatado = new DecimalFormat("0.00");
-		String area_triangulo = formatado.format(a*c);
+		DecimalFormat formatado = new DecimalFormat("0.000");
+		String area_triangulo = formatado.format(a*c/2);
 		String area_circulo = formatado.format(3.14159*Math.pow(c, 2));
 		String area_trapezio = formatado.format(((a+b)*c)/2);
 		String area_quadrado = formatado.format(Math.pow(b, 2));
 		String area_retangulo = formatado.format(a*b);
-		System.out.println("VALOR A PAGAR: R$ ");
+		System.out.println("TRIANGULO: "+area_triangulo+"\nCIRCULO: "+area_circulo+"\nTRAPEZIO: "+area_trapezio
+		+"\nQUADRADO: "+area_quadrado+"\nRETANGULO: "+area_retangulo);
 	}
 
 }
