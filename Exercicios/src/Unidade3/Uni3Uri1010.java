@@ -7,10 +7,10 @@ public class Uni3Uri1010 {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-		int codigo_1 = s.nextInt();
+		//int codigo_1 = s.nextInt();
 		int qtd_1 = s.nextInt();
 		double valor_1 = s.nextDouble();
-		int codigo_2 = s.nextInt();
+		//int codigo_2 = s.nextInt();
 		int qtd_2 = s.nextInt();
 		double valor_2 = s.nextDouble();
 		s.close();
