@@ -7,14 +7,15 @@ public class Uni4Exe25 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 
-		System.out.print("Informe o 1° número");
+		System.out.print("Informe o 1° número:");
 		double numero1 = s.nextInt();
 		
-		System.out.print("Informe o 2° número");
+		System.out.print("Informe o 2° número:");
 		double numero2 = s.nextInt();
 
 		System.out.print("1 - Soma de dois números.\n2 - Diferença entre dois números."+
-		"3 - Produto entre dois números.\n4 - Divisão entre dois números (o denominador não pode ser zero).");
+		"3 - Produto entre dois números.\n4 - Divisão entre dois números (o denominador não pode ser zero).\n"+
+		"Escolha:");
 		int escolha = s.nextInt();
 		
 		s.close();
