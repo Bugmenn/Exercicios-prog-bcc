@@ -20,7 +20,7 @@ public class Uni4Exe1050 {
                 break;
 
             case 11:
-                System.out.println("Sao paulo");
+                System.out.println("Sao Paulo");
                 break;
             
             case 21:
