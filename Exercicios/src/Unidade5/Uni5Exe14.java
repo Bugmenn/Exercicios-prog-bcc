@@ -35,6 +35,11 @@ public class Uni5Exe14 {
                 qt20++;
             }
         }
+
+        s.close();
+        
+        System.out.println("Quantidade abaico de 10%:"+qt10+"\nQuantidade acima de 10% mas abaixo de 20%:"+qt1020+
+        "\nQuantidade acima de 20%:"+qt20);
         System.out.println("Valor de PC total:"+valorPcTotal+"\nValor de PV total:"+valorPvTotal+"\nLucro total:"+lucroTotal);
     }
 }
